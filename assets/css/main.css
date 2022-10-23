@@ -1405,13 +1405,22 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 30%;
+			width: 100%;
 			margin: 0 0 2.5em 0;
 		}
 
 		.image.left {
+			display: block;
 			float: left;
-			margin: 0 2em 2em 0;
+			width: 50%;
+			margin: 0em 2em 2em 0em;
+		}
+
+		.image.mainpage {
+			display: block;
+			float: left;
+			width: 400px;
+			margin: 0em 2em 2em 0em;
 		}
 
 		.image.centered {
@@ -2312,6 +2321,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
+				display: block;				
 				line-height: 1.75em;
 				font-size: 10pt;
 				letter-spacing: 0;
@@ -2334,7 +2344,13 @@ input, select, textarea {
 		/* Image */
 
 			.image.left {
-				width: 25%;
+				width: 100%;
+				position: relative;
+    				
+			}
+
+			.image.mainpage {
+    				position: relative;
 			}
 
 		/* Button */
