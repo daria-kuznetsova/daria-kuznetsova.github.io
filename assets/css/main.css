@@ -2350,6 +2350,7 @@ input, select, textarea {
 			}
 
 			.image.mainpage {
+				width: 100%;
     				position: relative;
 			}
 
