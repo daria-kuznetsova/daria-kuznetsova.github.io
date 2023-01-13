@@ -146,7 +146,7 @@ input, select, textarea {
 				position: relative;
 				top: 0.05em;
 				margin-right: 0.5em;
-				opacity: 0.25;
+				opacity: 0.5;
 			}
 
 	h3 {
@@ -1713,12 +1713,12 @@ input, select, textarea {
 	
 	h1:hover, a:hover {
   	background-color: ##737069;
-	opacity: 0.6;
+	opacity: 0.75;
 	}	
 	
 	#nav {
 		position: absolute;
-		right: -1em;
+		right: 2em;
 		top: 0em;
 		line-height: 2.25em;
 	}
@@ -1733,8 +1733,8 @@ input, select, textarea {
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 700;
-				font-size: 0.95em;
-				letter-spacing: 0.03em;
+				font-size: 1.1em;
+				letter-spacing: 0.04em;
 				padding: 0.5em 0.4em 0.5em 0.4em;
 				border-radius: 1px;
 				outline: 0;
@@ -2137,7 +2137,7 @@ input, select, textarea {
 					top: 0;
 					width: 60px;
 					height: 44px;
-					opacity: 0.25;
+					opacity: 0.5;
 				}
 
 					#titleBar .toggle:before {
