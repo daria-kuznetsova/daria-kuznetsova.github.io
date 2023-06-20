@@ -1419,8 +1419,8 @@ input, select, textarea {
 		.image.mainpage {
 			display: block;
 			float: left;
-			width: 40%;
-			margin: 0em 2em 2em 0em;
+			width: 30%;
+			margin: 0em 2em 1em 0em;
 		}
 
 		.image.centered {
