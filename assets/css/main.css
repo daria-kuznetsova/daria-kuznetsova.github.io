@@ -1433,6 +1433,20 @@ input, select, textarea {
 				width: auto;
 			}
 
+
+/* Details */
+
+	details {
+    		width: auto;
+		margin-left: 40px;
+		}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+
 /* Button */
 
 	input[type="button"],
@@ -1468,6 +1482,7 @@ input, select, textarea {
 		cursor: pointer;
 	}
 
+		
 		input[type="button"].icon:before,
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
@@ -1536,6 +1551,21 @@ input, select, textarea {
 			.button.alt:active {
 				background-color: #363a42;
 			}
+
+/* Style the button that is used to open and close the collapsible content */
+button,
+.collapsible {
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
 
 /* List */
 
