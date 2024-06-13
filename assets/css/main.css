@@ -1420,7 +1420,7 @@ input, select, textarea {
 			display: block;
 			float: left;
 			width: 30%;
-			margin: 0em 2em 1em 0em;
+			margin: 0.5em 2em 1em 0em;
 		}
 
 		.image.centered {
@@ -1743,7 +1743,7 @@ button,
 	
 	h1:hover, a:hover {
   	background-color: ##737069;
-	opacity: 0.75;
+	opacity: 0.85;
 	}	
 	
 	#nav {
